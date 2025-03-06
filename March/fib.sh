@@ -16,3 +16,18 @@ do
 done
 
 echo 
+
+
+OUTPUT :
+
+[mca@localhost s2mca]$ vi fib.sh
+[mca@localhost s2mca]$ chmod +x fib.sh
+[mca@localhost s2mca]$ ./fib.sh
+Enter the limit : 
+5
+Fibonacci series upto 5 number : 
+0
+1
+1
+2
+3
