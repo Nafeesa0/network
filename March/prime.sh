@@ -17,3 +17,21 @@ do
 	fi
 done
 
+
+
+OUTPUT : 
+
+
+[mca@localhost s2mca]$ vi prime.sh
+[mca@localhost s2mca]$ chmod +x prime.sh
+[mca@localhost s2mca]$ ./prime.sh
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97
