@@ -1,10 +1,10 @@
 #!/bin/bash
-# Function to perform arithmetic operations
+
 echo "Enter first number: "
-read num1
+read n1
 
 echo "Enter second number: "
-read num2
+read n2
 
 echo "1. Addition (+)"
 echo "2. Subtraction (-)"
@@ -19,31 +19,52 @@ read ch
 
 case $ch in
   1)
-    result=$((num1 + num2))
+    result=$((n1 + n2))
     echo "The result is  $result"
     ;;
   2)
-    result=$((num1 - num2))
+    result=$((n1 - n2))
     echo "The result is  $result"
     ;;
   3)
-    result=$((num1 * num2))
+    result=$((n1 * n2))
     echo "The result is  $result"
     ;;
   4)
     if [ $num2 -eq 0 ]; then
       echo "Error: Division by zero is not allowed!"
     else
-      result=$((num1 / num2))
+      result=$((n1 / n2))
       echo "The result is  $result"
     fi
     ;;
   5)
-    result=$((num1 % num2))
+    result=$((n1 % n2))
     echo " The result is $result"
     ;;
   *)
     echo "Invalid option selected!"
     ;;
 esac
+
+
+
+
+OUTPUT :
+
+[mca@localhost ~]$ vi arthmetic.sh
+[mca@localhost ~]$ ./arthmetic.sh
+Enter first number: 
+2
+Enter second number: 
+4
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus (%)
+Select operation to perform:
+1
+The result is  6
+
 
