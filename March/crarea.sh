@@ -15,3 +15,14 @@ calculate_area() {
 
 
 calculate_area $r
+
+
+OUTPUT :
+
+[mca@localhost s2mca]$ vi crarea.sh
+[mca@localhost s2mca]$ chmod +x crarea.sh
+[mca@localhost s2mca]$ ./crarea.sh
+enter the radius of the circle : 
+4
+The area of the circle  is  50.24
+
