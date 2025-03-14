@@ -11,3 +11,12 @@ do
 done
 
 echo "The sum of the digits is $sum"
+
+OUTPUT :
+
+[mca@localhost s2mca]$ vi sumd.sh
+[mca@localhost s2mca]$ chmod +x sumd.sh
+[mca@localhost s2mca]$ ./sumd.sh
+Enter a number :
+234
+The sum of the digits is 9
