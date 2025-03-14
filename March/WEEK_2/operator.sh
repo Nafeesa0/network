@@ -31,3 +31,17 @@ esac
 
 echo "Result: $result"
 
+
+
+OUTPUT  :
+
+[mca@localhost s2mca]$ vi operator.sh
+[mca@localhost s2mca]$ chmod +x operator.sh
+[mca@localhost s2mca]$ ./operator.sh
+Enter first number:
+3
+Enter second number:
+4
+Enter operator (+, -, *, /):
++
+Result: 7
