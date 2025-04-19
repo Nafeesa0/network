@@ -31,7 +31,7 @@ case $ch in
     echo "The result is  $result"
     ;;
   4)
-    if [ $num2 -eq 0 ]; then
+    if [ $n2 -eq 0 ]; then
       echo "Error: Division by zero is not allowed!"
     else
       result=$((n1 / n2))
