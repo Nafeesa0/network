@@ -1,14 +1,20 @@
-#!/bin/bash
-
-echo "Enter a string : "
+echo "Enter a string: "
 read s
 
-if [[ "$s" == "$(echo "$s" | rev)" ]];
-then
-    echo "The string is a palindrome."
+# Get the reverse of the string
+rev_s=$(echo "$s" | rev)
+
+
+if [[ "$s" == "$(echo "$s" | rev)" ]];then
+echo "Reversed string: $rev_s"
+
+    echo "\"$s\" is a palindrome."
 else
-    echo "The string is not a palindrome."
+echo "Reversed string: $rev_s"
+
+    echo "\"$s\" is not a palindrome."
 fi
+
 
 
 
