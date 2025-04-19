@@ -52,11 +52,13 @@ OUTPUT :
 [mca@localhost s2mca]$ chmod +x pswrd.sh
 [mca@localhost s2mca]$ ./pswrd.sh
 Enter a password: 
- Admin123 
-Password must contain at least one special character.
-[mca@localhost s2mca]$ vi pswrd.sh
-[mca@localhost s2mca]$ chmod +x pswrd.sh
-[mca@localhost s2mca]$ ./pswrd.sh
-Enter a password: 
- Admin@123 
-Password is strong.
+ 
+admin
+Password must be at least 8 char
+acters long
+Password must contain at least o
+ne uppercase letter
+Password must contain at least o
+ne digit
+Password must contain at least o
+ne special character.
